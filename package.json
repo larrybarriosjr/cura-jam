@@ -2,6 +2,7 @@
   "name": "cura-jam",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,34 +10,32 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@serwist/next": "^8.4.4",
-    "@serwist/precaching": "^8.4.4",
-    "@serwist/sw": "^8.4.4",
+    "@serwist/next": "^9.0.10",
     "crunker": "^2.4.0",
     "dashjs": "^4.7.4",
     "dexie": "^3.2.7",
     "dexie-react-hooks": "^1.1.7",
-    "dompurify": "^3.0.11",
+    "dompurify": "^3.2.0",
     "next": "14.1.4",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "uuid": "^9.0.1",
-    "youtubei.js": "^9.1.0",
-    "zustand": "^4.5.2"
+    "youtubei.js": "^9.4.0",
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
-    "@types/dompurify": "^3.0.5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/node": "^20.17.6",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
     "@types/uuid": "^9.0.8",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
     "eslint-config-next": "14.1.4",
-    "immer": "^10.0.4",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "immer": "^10.1.1",
+    "postcss": "^8.4.49",
+    "serwist": "^9.0.10",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
   },
   "packageManager": "pnpm@8.15.5+sha1.a58c038faac410c947dbdb93eb30994037d0fce2"
 }

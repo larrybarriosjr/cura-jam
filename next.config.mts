@@ -1,7 +1,7 @@
 import withSerwistInit from "@serwist/next";
+import { NextConfig } from "next";
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
   reactStrictMode: true,
   compiler: {
     removeConsole: process.env.NODE_ENV !== "development",
@@ -9,7 +9,6 @@ const nextConfig = {
 };
 
 const withSerwist = withSerwistInit({
-  disable: true,
   swSrc: "app/sw.ts",
   swDest: "public/sw.js",
 });
