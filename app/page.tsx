@@ -1,9 +1,5 @@
-import dynamic from "next/dynamic";
-
-const DynamicPlayer = dynamic(() => import("./components/player"), {
-  ssr: false,
-});
+import Entry from "./components/entry";
 
 export default function Home() {
-  return <DynamicPlayer />;
+  return <Entry />;
 }
