@@ -61,7 +61,7 @@ export const useCuraJamStore = createStore<CuraJamStore>((set, get) => ({
     }
 
     if (isDifferentMixTape) {
-      const crunker = new Crunker({ sampleRate: 48000 });
+      const crunker = new Crunker();
 
       const responses = await Promise.all(
         ids.map((id) => {
